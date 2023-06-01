@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #eee;
+}
+
+ul {
+  margin-left: 60px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  font size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+ 
+}
+
+ul li a:hover {
+  color: white;
+}
+
+.gallery-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gallery-img {
+  flex-basis: 300px;
+  margin: 20px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+.p1 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 200px;
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.p3 {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+.header1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.header2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-bottom: px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.gallery-links-h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-bottom: px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+@media only screen and (min-width: 762px) {
+  .gallery-links-h1 {
+    font-size: 28px;
+  }
+}
